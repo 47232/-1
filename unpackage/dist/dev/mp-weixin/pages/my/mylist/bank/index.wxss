@@ -1,0 +1,90 @@
+
+.bank{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.bank .bank_tab{
+	width: 90%;
+	height: auto;
+	/* background: #d7d7d7; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.bank .bank_tab .bank_title{
+	height: 50px;
+	font-size: 16px;
+	/* background: #199ED8; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	/* justify-content: center; */
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.bank .bank_tab .bank_title text{
+	font-size: 14px;
+}
+.bank .bank_tab .bank_card{
+	height: 100px;
+	background: #2487ED;
+	margin-bottom: 10px;
+}
+.bank .bank_tab .card_dt{
+	height: 50px;
+	color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	padding-left: 20px;
+}
+.bank .bank_tab .card_h4{
+	font-size: 16px;
+}
+.bank .bank_tab .card_dd{
+	font-size: 24px;
+	padding-left: 20px;
+	color: #FFFFFF;
+}
+.bank .add_bank{
+	margin-top: 50px;
+	width: 60%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-size: 18px;
+	border-radius: 20px;
+	height: 50px;
+	color: #FFFFFF;
+	background: #2487ED;
+}
+

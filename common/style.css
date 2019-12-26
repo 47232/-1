@@ -1,0 +1,49 @@
+.phone{
+	height: 100%;
+	width: 100%;
+	background:#FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.outer {
+	margin-top: 60px;
+ 	width: 360rpx;
+ 	height: 360rpx;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	background-image: radial-gradient(circle closest-corner at 97% 50%, #0bd4ff, #0b53ff);
+ 	border-radius: 50%;
+ 	animation-name: rotate;
+ 	animation-duration: 1s;
+ 	/* animation-fill-mode: forwards; */
+ 	animation-iteration-count: infinite;
+ 	animation-timing-function: linear;
+ }
+ .inner {
+ 	width: 330rpx;
+ 	height: 330rpx;
+ 	background: #000000;
+ 	border-radius: 50%;
+ }
+ .btn_text_1{
+	 color: #FFFFFF;
+ 	position: absolute;
+ 	top: 17%;
+ 	font-size: 30px;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-content: center;
+ }
+
+ @keyframes rotate {
+ 	from {
+ 		transform: rotate(0deg);
+ 	}
+
+ 	from {
+ 		transform: rotate(360deg);
+ 	}
+ }

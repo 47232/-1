@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/my/index",
+    "pages/my/mylist/invitation/index",
+    "pages/my/mylist/safety/index",
+    "pages/my/mylist/safety/real/index",
+    "pages/my/mylist/safety/forget/index",
+    "pages/my/mylist/safety/amend/index",
+    "pages/my/mylist/safety/draw/index",
+    "pages/my/mylist/bank/index",
+    "pages/my/mylist/brokerage/index",
+    "pages/my/mylist/agency/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#0776e8",
+    "backgroundColor": "#0776e8"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#FFFFFF",
+    "backgroundColor": "#0045ad",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/imgs/home.png",
+        "selectedIconPath": "static/imgs/home_a.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "static/imgs/my.png",
+        "selectedIconPath": "static/imgs/my_a.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

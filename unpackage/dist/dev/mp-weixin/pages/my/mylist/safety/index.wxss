@@ -1,0 +1,46 @@
+
+.border{
+	width: 90%;
+	height: 1px;
+	background: #000000;
+}
+.safety {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.safety .safety_list{
+	width: 90%;
+	margin: 0 5%;
+	height: 50px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	position: relative;
+}
+.safety .safety_list .safety_next{
+	height: 30px;
+	width: 20px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	position: absolute;
+	right: 0;
+}
+.safety .safety_list .safety_name{
+	font-size: 14px;
+}
+

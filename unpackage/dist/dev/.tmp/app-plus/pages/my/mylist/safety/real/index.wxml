@@ -1,0 +1,1 @@
+<view class="real"><view class="real_list"><input type="confirmtype" value="" placeholder="请输入姓名"/></view><view class="border"></view><view class="real_list"><input type="confirmtype" value="" placeholder="请输入身份证"/></view><view class="border"></view><view class="real_button">完成</view></view>

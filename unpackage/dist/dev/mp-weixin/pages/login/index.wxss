@@ -1,0 +1,156 @@
+
+.place{
+	color: #FFFFFF;
+}
+.login_register{
+	height: 40px;
+	color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.login_aleat_1{
+	height: 20px;
+	color: #FF0000;
+}
+.login_border{
+	height: 1px;
+	width: 90%;
+	background: #199ED8;
+}
+.login_border_1{
+	height: 1px;
+	width: 90%;
+	background: #FF0000;
+}
+page{
+	background: #2487ED;
+}
+.login {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.login .login_logo{
+	width: 100%;
+	height: 200px;
+	background: #2487ED;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.login .login_logo .login_logo_img{
+	height: 100px;
+	width: 100px;
+	background: #4CD964;
+}
+.login .login_logo .login_logo_img image{
+	width: 100%;
+	height: 100%;
+}
+.login .login_tab{
+	width: 90%;
+	height: 50px;
+	/* background: #199ED8; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.login .login_tab .login_title{
+	color: #FFFFFF;
+	width: 25%;
+	font-size: 16px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.login .login_tab .login_title_go{
+	color: #FFFFFF;
+	width: 25%;
+	font-size: 16px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.login .login_tab .login_account{
+	height: 50px;
+	width: 75%;
+	font-size: 14px;
+	color: #FFFFFF;
+	/* background: #FFFFFF; */
+}
+.login .login_tab .login_verify{
+	height: 50px;
+	width: 40%;
+	font-size: 14px;
+	color: #FFFFFF;
+	/* background: #FFFFFF; */
+}
+.login .login_tab .login_verify_img{
+	height: 40px;
+	width: 40%;
+}
+.login .login_tab .login_verify_img image{
+	width: 100%;
+	height: 100%;
+}
+.login .login_button{
+	width: 80%;
+	margin-top: 10px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-size: 14px;
+	border-radius:20rpx ;
+	height: 40px;
+	background: #dee5fa;
+	color: #2487ED;
+	font-weight: 600;
+}
+

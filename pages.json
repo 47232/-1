@@ -1,0 +1,117 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/login/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "登陆"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/login/register/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "注册"
+		// 	}
+		// },
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/my/mylist/invitation/index",
+			"style": {
+				"navigationBarTitleText": "我的邀请码"
+			}
+		},
+		{
+			"path": "pages/my/mylist/safety/index",
+			"style": {
+				"navigationBarTitleText": "安全中心"
+			}
+		},
+		{
+			"path": "pages/my/mylist/safety/real/index",
+			"style": {
+				"navigationBarTitleText": "实名认证"
+			}
+		},
+		{
+			"path": "pages/my/mylist/safety/forget/index",
+			"style": {
+				"navigationBarTitleText": "忘记提现密码"
+			}
+		},
+		{
+			"path": "pages/my/mylist/safety/amend/index",
+			"style": {
+				"navigationBarTitleText": "修改登陆密码"
+			}
+		},
+		{
+			"path": "pages/my/mylist/safety/draw/index",
+			"style": {
+				"navigationBarTitleText": "修改提现密码"
+			}
+		},
+		{
+			"path": "pages/my/mylist/bank/index",
+			"style": {
+				"navigationBarTitleText": "银行卡管理"
+			}
+		},
+		{
+			"path": "pages/my/mylist/brokerage/index",
+			"style": {
+				"navigationBarTitleText": "佣金费率"
+			}
+		},
+		{
+			"path": "pages/my/mylist/agency/index",
+			"style": {
+				"navigationBarTitleText": "代理统计"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#0776e8",
+		"backgroundColor": "#0776e8"
+	},
+	"tabBar":{
+		"color":"#dddddd",
+		"selectedColor":"#FFFFFF",
+		"backgroundColor": "#0045ad",
+		"list":[
+			{
+				"pagePath":"pages/home/index",
+				"iconPath":"static/imgs/home.png",
+				"selectedIconPath":"static/imgs/home_a.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/my/index",
+				"iconPath":"static/imgs/my.png",
+				"selectedIconPath":"static/imgs/my_a.png",
+				"text":"我的"
+			}
+		]
+		
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
